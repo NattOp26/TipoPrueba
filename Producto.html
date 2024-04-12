@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="Grupo Cero" src="img/logo.jpg" alt="logo"width = "125px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="file:///C:/Users/plazavespucio/Documents/da/TipoPrueba/Inicio.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C:/Users/plazavespucio/Documents/da/TipoPrueba/Producto.html">Producto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Users/plazavespucio/Documents/da/TipoPrueba/Contacto.html">Contacto</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categoria
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="file:///C:/Users/plazavespucio/Documents/da/TipoPrueba/Notebook.html">Notebook</a>
+                <a class="dropdown-item" href="file:///C:/Users/plazavespucio/Documents/da/TipoPrueba/Escritorio.html">Escritorio</a>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item" href="file:///C:/Users/plazavespucio/Documents/da/TipoPrueba/Carrito.html"><img src="img/carrito.jpg" alt="carrito"width = "35 px"></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="" placeholder="" aria-label="">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+<!-- termino de nevbar -->
+<!-- col y sep -->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/escritorio.jpg" alt="Card image cap" width="100px" height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">Lenovo thinkcentre</h5>
+                      <p class="card-text">Precio: $2.000</p>
+
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                        Agregar al carrito
+                      </button>
+                      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">¿Quieres agregar al carrito?</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              Este producto se agregara al carrito de compra
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                              <button type="button" class="btn btn-primary" class="close" data-dismiss="modal" aria-label="Close">Si</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/escritorio 2.jpg" alt="Card image cap" width="100px" height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">HP muy lindo</h5>
+                      <p class="card-text">Precio: $1.500</p>
+
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                        Agregar al carrito
+                      </button>
+                      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">¿Quieres agregar al carrito?</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              Este producto se agregara al carrito de compra
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                              <button type="button" class="btn btn-primary" class="close" data-dismiss="modal" aria-label="Close">Si</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/notebook.jpg" alt="Card image cap" width="100px" height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">Notebook gobierno</h5>
+                      <p class="card-text">Precio: $500 recien robado</p>
+
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                        Agregar al carrito
+                      </button>
+                      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">¿Quieres agregar al carrito?</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              Este producto se agregara al carrito de compra
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                              <button type="button" class="btn btn-primary" class="close" data-dismiss="modal" aria-label="Close">Si</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/notebook 2.jpg" alt="Card image cap" width="100px" height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">Notebook ACER</h5>
+                      <p class="card-text">Precio: $1.000</p>
+
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                        Agregar al carrito
+                      </button>
+                      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">¿Quieres agregar al carrito?</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              Este producto se agregara al carrito de compra
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                              <button type="button" class="btn btn-primary" class="close" data-dismiss="modal" aria-label="Close">Si</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
